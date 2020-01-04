@@ -1,0 +1,147 @@
+
+/*------------------ navigation bar elements ------------------ */
+
+.navBar{
+    background-color: #ffffff;
+    border-color: #cccccc;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    height: 100px;
+    position:relative;
+}
+
+a:link {
+    text-decoration: none;
+    color:gray;
+}
+
+.myname{
+    background-color: #4aaaa5;
+    color:#ffffff;
+    float: left;
+    padding: 10px;
+    position:absolute;
+    margin: 52px 0 0 260px;
+}
+
+.aboutLink, .portfolioLink, .contactLink{
+    float: right;
+    padding: 10px;
+}
+
+.navBarLinks{
+    position: relative;
+    top: 30%;
+    margin-right: 260px;
+}
+
+/*------------------ general body elements ------------------ */
+
+html, body{
+    height:100%;
+    margin: 0;
+}
+
+body{
+    background-image: url("../images/vintage-wallpaper/vintage-wallpaper.png");
+}
+
+.wrapper{
+    min-height: 100%;
+    margin-bottom: -50px;
+}
+
+.articleHeader{
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+.content{
+    clear:both;
+    background-color: #ffffff;
+    border-color: #dddddd;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    width: 960px;
+    margin-top:10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:10px;
+    padding:20px;
+    overflow:auto;
+
+}
+
+.footer, .push{
+    height: 50px;
+}
+
+.footer{
+    height: 50px;
+    border-top: 8px solid #4aaaa5;
+    background-color: #666666;
+}
+
+/*------------------ index page elements ------------------ */
+
+.indexImage{
+    width:20%;
+    height:auto;
+    float:left;
+    padding-right:20px;
+}
+
+p{
+    line-height: 2 ;
+}
+
+/*------------------ contact info elements ------------------ */
+
+
+input[type=text], textarea{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.submitBtn{
+    border: none;
+    background-color: #4aaaa5;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/*------------------ portfolio elements ------------------ */
+
+.card{
+    width:40%;
+    float:left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+img{
+    width:100%;
+    max-width:100%;
+    height:auto;
+}
+
+.cardOverlay{
+    background-color: #4aaaa5;
+    color: white;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    text-align: center;
+    position: relative;
+    bottom: 90px;
+    width:auto;
+    padding:5px;
+}
+
+.clearfix{
+    clear: both;
+}
